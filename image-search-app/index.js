@@ -1,4 +1,6 @@
-const accessKey = "AoUkcxavg1ydDS388fOgTKwaFuSD6DftFZfxC9U1_Nc";
+import { unsplashAPI_KEY } from "../API_KEYS.js";
+
+const accessKey = unsplashAPI_KEY;
 
 const formEl = document.querySelector("form");
 const searchInputEl = document.getElementById("search-input");

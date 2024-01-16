@@ -1,4 +1,6 @@
-const API_KEY = "803332d8a3334e228445381f6fc7fe53";
+import { spoonacularAPI_KEY } from "../API_KEYS.js";
+
+const API_KEY = spoonacularAPI_KEY;
 const recipeListEl = document.getElementById("recipe-list");
 
 function displayRecipes(recipes) {
